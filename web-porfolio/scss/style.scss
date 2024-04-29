@@ -999,7 +999,7 @@ h1, h2, h3, h4, h5,
 		bottom: 0;
 		content: '';
 		background: $primary;
-		opacity: .7;
+		opacity: .1;
 	}
 	h2{
 		color: $white;
@@ -1062,7 +1062,7 @@ h1, h2, h3, h4, h5,
 		z-index: -1;
 		@include transition(.3s);
 		@include media-breakpoint-down(sm){
-			opacity: .2;
+			opacity: .1;
 		}
 	}
 	.text{
@@ -1092,7 +1092,7 @@ h1, h2, h3, h4, h5,
 	}
 	&:hover, &:focus{
 		.overlay{
-			opacity: .9;
+			opacity: .1;
 		}
 		.text{
 			opacity: 1;
